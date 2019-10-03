@@ -1,10 +1,14 @@
 # API-NodeJS-Upload-Arquivos
 
+## Descrição
+
+API para upload de arquivos localmente ou Amazon s3.
+
 ## Principais recursos
 
-    - Upload de arquivos local e Amazon S3
-    - Estrutura de armazenamento no MongoDB 
-    - Variaveis de ambiente
+*  Upload de arquivos local ou Amazon s3
+*  Estrutura de armazenamento no MongoDB 
+*  Variaveis de ambiente
 
 ## Endpoints
 
@@ -14,7 +18,7 @@
 
 MULTIPART FORM
 
-file: {{ arquivo }}
+    file: {{ arquivo }}
 
 RESPOSTA
 
@@ -60,4 +64,8 @@ RESPOSTA
   ]
 }
 ```
+
+**Rota para deletar um arquivo específico.**
+
+    DELETE {{ base_url }}/posts/{{ postId }}
 
