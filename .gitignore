@@ -1,4 +1,4 @@
-.env
+.env-example
 tmp/
 yarn-error.log
 yarn.lock
